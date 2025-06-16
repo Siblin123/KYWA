@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KYWA로그인</title>
+  <!-- 폰트 어썸 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+  <header class="header inner">
+    <a href="index.html"><img src="img/logo1.png" alt="">
+    </a>
+
+    <div class="tap">
+      <p><a href="" id="simple_Login" class="active">간편인증</a></p>
+      <p><a href="Login.html" id="id_Login">아이디 로그인</a></p>
+    </div>
+  </header>
+
+  <div class="login_Menu inner ">
+
+    <input type="text" placeholder="아이디 또는 전화번호" class="id">
+    <input type="password" placeholder="비밀번호" class="password">
+
+    <div class="keepLoggedIn">
+      <input type="checkbox" id="checkBox">
+      <label for="checkBox"><a href="">로그인상태유지</a></label>
+
+    </div>
+
+    <div class="login_Btn">
+      <a href=""> <button>로그인</button></a>
+     
+    </div>
+    <div class="service">
+      <ul>
+        <a href="">
+          <li>비밀번호 찾기</li>
+        </a>
+        <a href="">
+          <li>아이디 찾기</li>
+        </a>
+        <a href="">
+          <li>회원가입</li>
+        </a>
+      </ul>
+    </div>
+
+
+    <div class="snsLogin">
+      <a href="">
+        <div class="Google_ sns"><img src="img/google.png" alt=""> </i>구글계정 로그인</div>
+      </a>
+      <a href="">
+        <div class="Naver_ sns"><img src="img/twitter.png" alt=""></i>트위터계정 로그인</div>
+      </a>
+
+      <a href="">
+        <div class="Meta_ sns"><img src="img/facebook.png" alt=""></i>메타계정 로그인</div>
+      </a>
+    </div>
+  </div>
+
+  <!-- 간편인증 -->
+  <div class="certification inner active">
+    <p>간편인증</p>
+    <div class="simple_Login">
+      <a href=""> <div class="type sns"> <img src="img/toss.png" alt="">토스</div></a>
+     <a href=""> <div class="type sns"> <img src="img/talk.png" alt="">카카오톡</div></a>
+     <a href=""><div class="type sns"> <img src="img/naver.png" alt="">네이버</div></a>
+      <a href="">  <div class="type sns"> <img src="img/pass.png" alt="">패스</div></a>
+    
+    </div>
+
+  </div>
+  <footer class="inner">
+    <p>※ 청소년활동 관련 통합회원 서비스 안내 <br> 회원 관련 문의 : 02-330-2826</p>
+
+    <p>※ KYWA 통합예약(국립수련원 캠프·시설예약, 특별지원청소년활동, 학교단체 사전예약 등)은 로그인 후 메뉴를 이용해주세요.</p>
+  </footer>
+
+  <script src="javaScript/login.js"></script>
+</body>
+
+</html>
